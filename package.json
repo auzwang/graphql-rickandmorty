@@ -1,0 +1,19 @@
+{
+  "name": "graphql-rickandmorty",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:auzwang/graphql-rickandmorty.git",
+  "author": "Zhe Wang <auzwang@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-datasource-rest": "0.1.5",
+    "apollo-server": "2.1.0",
+    "graphql": "14.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.5"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
