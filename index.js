@@ -127,7 +127,8 @@ const server = new ApolloServer({
       rickAndMortyAPI: new RickAndMortyAPI(),
     }
   },
-  // mocks: true
+  tracing: true,
+  // mocks: true,
 });
 
 // This `listen` method launches a web-server.  Existing apps
